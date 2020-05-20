@@ -1,0 +1,57 @@
+[size=12pt][b][color=#572500]TopicRenamer[/color][/b][/size] 
+
+[b]Author:[/b] [url=http://simplemachines.org/community/index.php?action=profile;u=189535]D#S[/url] (russian support: [url=http://www.simplemachines.ru/index.php?action=profile;u=7149]BIOHAZARD[/url])
+[b]Current Version:[/b] 2.2
+[b]Compatibility:[/b] SMF 2.0-2.0.1
+[b]Languages:[/b] [img]http://www.simplemachines.org/site_images/lang/russian.gif[/img] [img]http://www.simplemachines.org/site_images/lang/croatian.gif[/img] [img]http://www.simplemachines.org/site_images/lang/english.gif[/img] [img]http://www.simplemachines.org/site_images/lang/italian.gif[/img] [img]http://www.simplemachines.org/site_images/lang/polish.gif[/img] [img]http://www.simplemachines.org/site_images/lang/serbian.gif[/img]
+
+[color=#572500][b]Features[/b][/color]
+This mod allow you to rename all messages in topic by two clicks.
+
+[color=#572500][b]Installation[/b][/color]
+Any previous versions of this mod [b]MUST[/b] be uninstalled [b]BEFORE[/b] installing this version.
+
+[b]Useful Links[/b]
+[url=http://docs.simplemachines.org/index.php?topic=402]Manual Installation Of Mods[/url]
+[url=http://www.simplemachines.org/community/index.php?topic=24110.0]How Do I Modify Files?[/url]
+
+[color=#572500][b]Support[/b][/color]
+Please use the modification thread for support with this modification.
+(Please don't ask me to do the edits for you)
+
+[url=https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CQ7T7YU6MG8E2][img]https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif[/img][/url]
+
+[hr]
+
+[center]This work is licensed under a [url=http://creativecommons.org/licenses/by-nc-nd/3.0/]Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License[/url] (applies to all versions past and present).[/center]
+
+[table][tr][td][img]http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png[/img][/td]
+[td]
+[list][li][b]Attribution[/b] —  You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).[/li]
+[li][b]Noncommercial[/b] —  You may not use this work for commercial purposes.[/li]
+[li][b]No Derivative Works[/b] —  You may not alter, transform, or build upon this work.[/li]
+[/list][/td][/tr][/table]
+
+[hr]
+
+[color=#572500][b]Changelog[/b][/color]
+[b]Legend:[/b]
+! = Bugfix
+- = Removed
++ = New Feature
+o = Update
+> = New Language
+^ = Initial/New Release
+
+[code]
+2011.09.22 - v. 2.2
+> Croatian added.
+> Serbian latin and cyrillic added.
+o SMF 2.0.1 compatible.
+2011.09.10 - v. 2.1
+> Italian added.
+> Polish added.
+2011.08.14 - v. 2.0
+o Hooks based installation.
+2011.08.13 - v. 1.0
+^ Initial release.[/code]

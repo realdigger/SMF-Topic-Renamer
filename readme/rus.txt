@@ -1,0 +1,57 @@
+[size=12pt][b][color=#572500]TopicRenamer: переименование темы.[/color][/b][/size] 
+
+[b]Автор:[/b] [url=http://simplemachines.org/community/index.php?action=profile;u=189535]D#S[/url] (русская поддержка: [url=http://www.simplemachines.ru/index.php?action=profile;u=7149]BIOHAZARD[/url])
+[b]Текущая версия:[/b] 2.2
+[b]Совместимость:[/b] SMF 2.0-2.0.1
+[b]Языки:[/b] [img]http://www.simplemachines.org/site_images/lang/russian.gif[/img] [img]http://www.simplemachines.org/site_images/lang/croatian.gif[/img] [img]http://www.simplemachines.org/site_images/lang/english.gif[/img] [img]http://www.simplemachines.org/site_images/lang/italian.gif[/img] [img]http://www.simplemachines.org/site_images/lang/polish.gif[/img] [img]http://www.simplemachines.org/site_images/lang/serbian.gif[/img]
+
+[color=#572500][b]Возможности[/b][/color]
+Переименование всех сообщений выбранной темы в два клика.
+
+[color=#572500][b]Установка[/b][/color]
+Любые предыдущие версии мода [b]ДОЛЖНЫ[/b] быть удалены [b]ДО[/b] установки текущей версии.
+
+[b]Полезные ссылки[/b]
+[url=http://docs.simplemachines.org/index.php?topic=402]Установка модов вручную[/url]
+[url=http://www.simplemachines.org/community/index.php?topic=24110.0]Как мне модифицировать файлы?[/url]
+
+[color=#572500][b]Поддержка[/b][/color]
+Пожалуйста используйте тему поддержки этого мода на форуме.
+(Пожалуйста не просите меня переделать этот мод специально для Вас)
+
+[url=https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CQ7T7YU6MG8E2][img]https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif[/img][/url]
+
+[hr]
+
+[center]Этот мод распространяется под лицензией [url=http://creativecommons.org/licenses/by-nc-nd/3.0/deed.ru]Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License[/url] (включая все предыдущие и последующие версии).[/center]
+
+[table][tr][td][img]http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-nd.png[/img][/td]
+[td]
+[list][li][b]Attribution (Атрибуция)[/b] —  Вы должны атрибутировать произведение (указывать автора и источник) в порядке, предусмотренном автором или лицензиаром (но только так, чтобы никоим образом не подразумевалось, что они поддерживают вас или использование вами данного произведения).[/li]
+[li][b]Некоммерческое использование[/b] —  Вы не можете использовать это произведение в коммерческих целях.[/li]
+[li][b]Без производных произведений[/b] —  Вы не можете изменять, преобразовывать или брать за основу это произведение.[/li]
+[/list][/td][/tr][/table]
+
+[hr]
+
+[color=#572500][b]История изменений[/b][/color]
+[b]Обозначения:[/b]
+! = Исправление ошибок
+- = Удалено
++ = Новые возможности
+o = Обновление
+> = Новый язык
+^ = Начальный/новый релиз
+
+[code]
+2011.09.22 - v. 2.2
+> Добавлен хорватский язык.
+> Добавлен сербский язык (латиница и кириллица).
+o Версия совместимая с SMF 2.0.1.
+2011.09.10 - v. 2.1
+> Добавлен итальянский язык.
+> Добавлен польский язык.
+2011.08.14 - v. 2.0
+o Установка на хуках.
+2011.08.13 - v. 1.0
+^ Начальный релиз[/code]

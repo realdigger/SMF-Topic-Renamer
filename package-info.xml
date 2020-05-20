@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>BIOHAZARD:TopicRenamer</id>
+	<name>TopicRenamer</name>
+	<version>2.2</version>
+	<type>modification</type>
+
+	<install for="2.0-2.99.99">
+		<readme type="file" parsebbc="true">readme/pin.txt</readme>
+		<readme type="file" parsebbc="true" lang="russian">readme/rus.txt</readme>
+		<readme type="file" parsebbc="true" lang="russian-utf8">readme/rus-utf8.txt</readme>
+		<require-file name="TopicRenamer.php" destination="$sourcedir" />
+		<require-file name="TopicRenamer.template.php" destination="$themedir" />
+		<require-dir  name="languages" destination="$themedir" />
+		<code>hooks.php</code>
+		<redirect url="?action=admin;area=packages;sa=browse" timeout="1000" />
+	</install>
+
+	<uninstall for="2.0-2.99.99">
+		<remove-file name="$sourcedir/TopicRenamer.php" />
+		<remove-file name="themedir/TopicRenamer.template.php" />
+		<remove-dir  name="$themedir/languages/TopicRenamer" />
+		<code>hooks.php</code>
+		<redirect url="?action=admin;area=packages;sa=browse" timeout="1000" />
+	</uninstall>
+
+</package-info>
