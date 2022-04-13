@@ -20,7 +20,7 @@
 
     <uninstall for="2.0-2.99.99">
         <remove-file name="$sourcedir/TopicRenamer.php"/>
-        <remove-file name="themedir/TopicRenamer.template.php"/>
+        <remove-file name="$themedir/TopicRenamer.template.php"/>
         <remove-dir name="$themedir/languages/TopicRenamer"/>
         <database>hooks.php</database>
         <redirect url="?action=admin;area=packages;sa=browse" timeout="1000"/>
