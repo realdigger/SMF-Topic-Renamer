@@ -10,3 +10,5 @@ $txt['permissionname_simple_rename_topic_own'] = 'Rename Own Topic';
 $txt['permissionname_simple_rename_topic_any'] = 'Rename Any Topic';
 $txt['rename_topic_no_id']                     = 'You must select a valid topic.';
 $txt['rename_topic_subject']                   = 'Topic Subject';
+$txt['cannot_rename_topic_own']                = 'No permission to rename own topic.';
+$txt['cannot_rename_topic_any']                = 'No permission to rename any topic.';

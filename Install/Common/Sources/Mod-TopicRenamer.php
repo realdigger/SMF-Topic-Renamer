@@ -38,10 +38,6 @@ class TopicRenamer
 
         loadLanguage('TopicRenamer/TopicRenamer');
 
-        if (defined('SMF_VERSION1')) {
-            var_dump(SMF_VERSION);
-        }
-
         // Check if allowed to renameTopic.
         isAllowedTo('rename_topic_own') || isAllowedTo('rename_topic_any');
 
