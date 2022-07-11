@@ -1,7 +1,7 @@
 The MIT License (MIT)
 
 Copyright (c) 2011-2019 D#S aka BIOHAZARD http://simplemachines.org/community/index.php?action=profile;u=189535
-Copyright (c) 2020-2021 digger https://mysmf.net
+Copyright (c) 2020-2022 digger https://mysmf.net
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

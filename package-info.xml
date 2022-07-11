@@ -7,23 +7,32 @@
     <version>3.0</version>
     <type>modification</type>
 
-    <install for="2.0-2.99.99">
-        <readme type="file" parsebbc="true">readme/pin.txt</readme>
-        <readme type="file" parsebbc="true" lang="russian">readme/rus.txt</readme>
-        <readme type="file" parsebbc="true" lang="russian-utf8">readme/rus-utf8.txt</readme>
-        <require-file name="TopicRenamer.php" destination="$sourcedir"/>
-        <require-file name="TopicRenamer.template.php" destination="$themedir"/>
-        <require-dir name="languages" destination="$themedir"/>
+    <install for="2.0.*">
+        <readme type="file" parsebbc="true">README.bbc</readme>
+        <require-dir name="Install/SMF_2.0/Themes" destination="$boarddir"/>
+        <require-dir name="Install/Common/Sources" destination="$boarddir"/>
         <database>hooks.php</database>
-        <redirect url="?action=admin;area=packages;sa=browse" timeout="1000"/>
     </install>
 
-    <uninstall for="2.0-2.99.99">
-        <remove-file name="$sourcedir/TopicRenamer.php"/>
-        <remove-file name="$themedir/TopicRenamer.template.php"/>
-        <remove-dir name="$themedir/languages/TopicRenamer"/>
+    <uninstall for="2.0.*">
+        <remove-dir name="$languagedir/TopicRenamer"/>
+        <remove-dir name="$themedir/TopicRenamer.template.php"/>
+        <remove-file name="$sourcedir/Mod-TopicRenamer.php"/>
         <database>hooks.php</database>
-        <redirect url="?action=admin;area=packages;sa=browse" timeout="1000"/>
+    </uninstall>
+
+    <install for="2.1.*">
+        <readme type="file" parsebbc="true">README.bbc</readme>
+        <require-dir name="Install/SMF_2.1/Themes" destination="$boarddir"/>
+        <require-dir name="Install/Common/Sources" destination="$boarddir"/>
+        <hook hook="integrate_pre_load" function="TopicRenamer::loadHooks" file="$sourcedir/Mod-TopicRenamer.php"/>
+    </install>
+
+    <uninstall for="2.1.*">
+        <remove-dir name="$languagedir/TopicRenamer"/>
+        <remove-dir name="$themedir/TopicRenamer.template.php"/>
+        <remove-file name="$sourcedir/Mod-TopicRenamer.php"/>
+        <hook hook="integrate_pre_load" function="TopicRenamer::loadHooks" file="$sourcedir/Mod-TopicRenamer.php" reverse="true"/>
     </uninstall>
 
 </package-info>

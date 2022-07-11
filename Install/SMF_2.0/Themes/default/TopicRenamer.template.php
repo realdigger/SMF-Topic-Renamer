@@ -1,16 +1,29 @@
 <?php
-// TopicRenamer template.
 
+/**
+ * Project: SMF Topic Renamer
+ * Version: 3.0
+ * File: TopicRenamer.template.php
+ * Author: digger @ https://mysmf.net
+ * Author: dD#S aka BIOHAZARD @ http://simplemachines.org/community/index.php?action=profile;u=189535
+ * License: The MIT License (MIT)
+ */
+
+/**
+ * Template for rename form
+ *
+ * @return void
+ */
 function template_main()
 {
     global $context, $settings, $txt, $scripturl;
 
-    loadLanguage('TopicRenamer/');
+    loadLanguage('TopicRenamer/TopicRenamer');
 
     echo '
 		<div class="cat_bar">
 			<h3 class="catbg">
-				<span class="ie6_header floatleft"><img src="', $settings['images_url'], '/edit.gif" alt="" class="icon" />', $txt['rename_topic'], '</span>
+				<span class="ie6_header floatleft"><img alt="rename" src="', $settings['images_url'], '/edit.gif" alt="" class="icon" />', $txt['rename_topic'], '</span>
 			</h3>
 		</div>
 		<span class="upperframe"><span></span></span>

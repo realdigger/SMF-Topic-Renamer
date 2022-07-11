@@ -9,7 +9,7 @@
   aka [BIOHAZARD](https://www.simplemachines.ru/index.php?action=profile;u=7149)
 * **Additional author:** [digger](https://mysmf.net)
 * **License:** The MIT License (MIT)
-* **Compatible with:** SMF 2.0
+* **Compatible with:** SMF 2.0, SMF 2.1
 * **Requirements:** PHP 5.4+
 * **Languages:** English, Russian, Croatian, Italian, Serbian
 
@@ -27,6 +27,9 @@ This mod allow you to rename all messages in topic by two clicks.
 ![second](https://user-images.githubusercontent.com/1187218/82440211-08731180-9aad-11ea-829e-20dd5de31a2a.png)
 
 ## History
+
+2022.07.11 - v. 3.0
+SMF 2.1 support.
 
 2011.09.22 - v. 2.2  
 Croatian added. Serbian latin and cyrillic added. SMF 2.0.1 compatible.
@@ -50,6 +53,9 @@ Initial release.
 Переименование всех сообщений выбранной темы в два клика.
 
 ## История
+
+2022.07.11 - v. 3.0
+Добавлена совместимость с SMF 2.1.
 
 2011.09.22 - v. 2.2  
 Добавлен хорватский язык. Добавлен сербский язык (латиница и кириллица). Версия совместимая с SMF 2.0.1.
