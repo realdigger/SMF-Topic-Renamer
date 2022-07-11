@@ -39,7 +39,7 @@ class TopicRenamer
         loadLanguage('TopicRenamer/TopicRenamer');
 
         // Check if allowed to renameTopic.
-        isAllowedTo('rename_topic_own') || isAllowedTo('rename_topic_any');
+        isAllowedTo(['rename_topic_own', 'rename_topic_any']);
 
         // Load the template.
         loadTemplate('TopicRenamer');

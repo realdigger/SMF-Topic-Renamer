@@ -3,7 +3,7 @@
 global $txt;
 
 $txt['rename_topic']                           = 'Переименовать тему';
-$txt['permissionname_rename_topic']            = 'Переименование темы';
+$txt['permissionname_rename_topic']            = 'Переименование тем';
 $txt['permissionname_rename_topic_own']        = 'Собственная тема';
 $txt['permissionname_rename_topic_any']        = 'Любая тема';
 $txt['permissionname_simple_rename_topic_own'] = 'Переименование своей темы';
