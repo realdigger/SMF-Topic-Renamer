@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/realdigger/SMF-Topic-Renamer.svg?branch=master)](https://travis-ci.org/realdigger/SMF-Topic-Renamer)
 [![SMF](https://img.shields.io/badge/SMF-2.0-blue.svg?style==flat)](https://simplemachines.org)
 [![SMF](https://img.shields.io/badge/SMF-2.1-blue.svg?style==flat)](https://simplemachines.org)
+[![Hooks](https://img.shields.io/badge/hooks%20only-✓-blue.svg?style==flat)]()
 [![license](https://img.shields.io/github/license/realdigger/SMF-Topic-Renamer.svg)](https://github.com/realdigger/SMF-Topic-Renamer/blob/master/LICENSE.txt)
 
 # SMF Topic Renamer mod [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=SMF%20Topic%20Renamer&url=https://github.com/realdigger/SMF-Topic-Renamer&hashtags=smf,smf_topic_renamer)

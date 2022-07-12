@@ -86,9 +86,9 @@ class TopicRenamer
             );
 
             // At this point, we want to make sure the subject isn't too long (and subject fits in the tinytext of the database - 255).
-            if (strlen($_POST['subject']) > 100) {
+            if ($smcFunc['strlen']($_POST['subject']) > 100) {
                 $_POST['subject'] = $smcFunc['db_escape_string'](
-                    substr($smcFunc['db_unescape_string']($_POST['subject']), 0, 100)
+                    $smcFunc['substr']($smcFunc['db_unescape_string']($_POST['subject']), 0, 100)
                 );
             }
 
